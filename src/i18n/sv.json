@@ -1,0 +1,109 @@
+{
+  "close": "Stäng",
+  "current": "nuvarande",
+  "menu": {
+    "status": "Jag är tillgänglig för frilans",
+    "items": {
+      "resume": "Resumé",
+      "portfolio": "Portfolio",
+      "blog": "Blogg",
+      "contact": "Kontakt"
+    }
+  },
+  "section": {
+    "home": {
+      "hello": "<span>Hej, jag är</span>Javier Poremski",
+      "title": "Systemutvecklare",
+      "download": "Ladda ner CV"
+    },
+    "about": {
+      "title": {
+        "profile": "Profil",
+        "skills": "Färdigheter",
+        "experience": "Erfarenhet",
+        "education": "Utbildning",
+        "services": "Tjänster",
+        "awards": "Awards",
+        "testimonials": "Testimonials"
+      },
+      "dev_lang": {
+        "html_css": "HTML & CSS",
+        "js": "JavaScript",
+        "android": "Programutveckling för Android",
+        "python": "Python",
+        "swift": "Swift",
+        "java": "Java"
+      },
+      "experience": {
+        "1": {
+          "title": "<span>Kundrelationsmedarbetare</span> @ IKEA Group",
+          "time": "Okt 2008 - <span class=\"current\">pågående</span>",
+          "info": ""
+        },
+        "2": {
+          "title": "<span>Spec. inom sälj- och logistik</span> @ IKEA Group",
+          "time": "Nov 2008 - Aug 2015",
+          "info": ""
+        }
+      },
+      "education": {
+        "1": {
+          "title": "Kand. i datateknik | <span>Lund Universitet</span>",
+          "time": "Aug 2016 - <span class=\"current\">pågående</span>",
+          "info": "Högskoleingenjörsutbildning i datateknik."
+        },
+        "2": {
+          "title": "Kand. i biomedicin | <span>Malmö Högskola</span>",
+          "time": "Aug 2010 - Jun 2013",
+          "info": ""
+        }
+      },
+      "subheading": "Jag är <strong>systemutvecklare</strong> från Helsingborg. Jag strävar efter att göra en skillnad genom min kreativa lösning.",
+      "name": "<span>Namn: </span> Javier Poremski",
+      "date": "<span>Födelsedag : </span> November 5, 1986",
+      "location": "<span>Plats : </span> Helsingborg, Skåne, Sverige",
+      "email": "<span>E-mail : </span> javier@poremski.se",
+      "phone": "<span>Telefon : </span> +46 762 20 86 05",
+      "years_experience": "{year} års erfarenhet | {year} års erfarenhet"
+    },
+    "blog": {
+      "title": "Min blogg",
+      "posted_by": "Publicerad av {name}",
+      "read_more": "Läs mer",
+      "previous": "Föregående",
+      "next": "Nästa"
+    },
+    "contact": {
+      "title": "Kom i kontakt",
+      "form": {
+        "name": {
+          "title": "* Ditt namn",
+          "msg": "Vänligen ange ditt namn"
+        },
+        "email": {
+          "title": "* Din e-post",
+          "msg": "Vänligen ange din e-post"
+        },
+        "message": {
+          "title": "* Ditt meddelande",
+          "msg": "Vänligen skriv ditt meddelande"
+        }
+      },
+      "send": "Skicka meddelande",
+      "location": "Plats",
+      "call": "Ring mig",
+      "enquiries": "Förfrågningar"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "filter": "Filter :",
+      "filters": {
+        "all": "Alla",
+        "apps": "Appar",
+        "web": "Webb",
+        "tools": "Verktyg"
+      },
+      "details": "Visa detaljer."
+    }
+  }
+}
