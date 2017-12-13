@@ -1,0 +1,109 @@
+{
+  "close": "Fermi",
+  "current": "aktuale",
+  "menu": {
+    "status": "Mi disponeblas liberprofesiule",
+    "items": {
+      "resume": "Vivresumo",
+      "portfolio": "Verkarkolekto",
+      "blog": "Blogo",
+      "contact": "Kontakto"
+    }
+  },
+  "section": {
+    "home": {
+      "hello": "<span>Saluton, Mi estas</span>Javier Poremski",
+      "title": "Programisto",
+      "download": "Elŝuti la vivresumon"
+    },
+    "about": {
+      "title": {
+        "profile": "Profilo",
+        "skills": "Kapabloj",
+        "experience": "Sperto",
+        "education": "Edukado",
+        "services": "Servoj",
+        "awards": "Premioj",
+        "testimonials": "Atestoj"
+      },
+      "dev_lang": {
+        "html_css": "Hiperteksta marklingvo kaj laŭtemaj stilfolioj",
+        "js": "Javaskripto",
+        "android": "Evoluantaplikoj por Androidplatformo",
+        "python": "Pitono",
+        "swift": "Svifto",
+        "java": "Ĝavo"
+      },
+      "experience": {
+        "1": {
+          "title": "<span>Kunlaboranto de klienta servo</span> @ Grupo de IKEA",
+          "time": "Okt 2008 - <span class=\"current\">ĉeestanta</span>",
+          "info": ""
+        },
+        "2": {
+          "title": "<span>Specialisto de venda kaj loĝistika subtenado</span> @ Grupo de IKEA",
+          "time": "Nov 2008 - Aug 2015",
+          "info": ""
+        }
+      },
+      "education": {
+        "1": {
+          "title": "B.Sc. in Computer Science | <span>Lund University, Sweden</span>",
+          "time": "Aug 2016 - <span class=\"current\">Present</span>",
+          "info": ""
+        },
+        "2": {
+          "title": "B.Sc. in Biomedical Science | <span>Malmö University, Sweden</span>",
+          "time": "Aug 2010 - Jun 2013",
+          "info": ""
+        }
+      },
+      "subheading": "Mi estas <strong>programisto</strong> de Helsingborgo, Svedujo. Mi celas diferenci per mia krea solvo.",
+      "name": "<span>Nomo : </span> Javier Poremski",
+      "date": "<span>DNaskiĝdato : </span> November 5, 1986",
+      "location": "<span>Loko : </span> Helsingborg, Scania, Sweden",
+      "email": "<span>Retpoŝto : </span> javier@poremski.se",
+      "phone": "<span>Telefono : </span> +46 762 20 86 05",
+      "years_experience": "1 jaro da sperto | {year} jaroj da sperto"
+    },
+    "blog": {
+      "title": "Mia blogo",
+      "posted_by": "Afiŝita de {name}",
+      "read_more": "Legi pli",
+      "previous": "Antaŭa",
+      "next": "Sekva"
+    },
+    "contact": {
+      "title": "Kontaktu",
+      "form": {
+        "name": {
+          "title": "* Via nomo",
+          "msg": "Bonvolu enmeti vian nomon"
+        },
+        "email": {
+          "title": "* Via retpoŝto",
+          "msg": "Bonvolu enmeti vian retpoŝton"
+        },
+        "message": {
+          "title": "* Via mesaĝo",
+          "msg": "Bonvolu enmeti vian mesaĝon"
+        }
+      },
+      "send": "Sendi mesaĝon",
+      "location": "Loko",
+      "call": "Telefonu min",
+      "enquiries": "Demandoj"
+    },
+    "portfolio": {
+      "title": "Verkarkolekto",
+      "filter": "Filtriloj :",
+      "filters": {
+        "all": "Ĉio",
+        "apps": "Aplikoj",
+        "web": "Retejoj",
+        "tools": "Iloj"
+      },
+      "details": "Vidi detalojn."
+    }
+  }
+}
