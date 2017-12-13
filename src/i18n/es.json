@@ -1,0 +1,109 @@
+{
+  "close": "Cerrar",
+  "current": "presente",
+  "menu": {
+    "status": "Estoy disponible para trabajar por cuenta propia",
+    "items": {
+      "resume": "Currículum",
+      "portfolio": "Portafolio",
+      "blog": "Blog",
+      "contact": "Contacto"
+    }
+  },
+  "section": {
+    "home": {
+      "hello": "<span>Hola, soy</span>Javier Poremski",
+      "title": "Desarrollador de software",
+      "download": "Descargar el currículum"
+    },
+    "about": {
+      "title": {
+        "profile": "Perfil",
+        "skills": "Skills",
+        "experience": "Habilidad",
+        "education": "Educación",
+        "services": "Servicios",
+        "awards": "Premios",
+        "testimonials": "Testimonios"
+      },
+      "dev_lang": {
+        "html_css": "HTML & CSS",
+        "js": "JavaScript",
+        "android": "Desarrollo de Android",
+        "python": "Python",
+        "swift": "Swift",
+        "java": "Java"
+      },
+      "experience": {
+        "1": {
+          "title": "<span>Colaborador de Servicio de Atención al Cliente</span> @ Grupo IKEA",
+          "time": "Oct 2008 - <span class=\"current\">actual</span>",
+          "info": ""
+        },
+        "2": {
+          "title": "<span>Especialista en soporte de ventas y suministros</span> @ Grupo IKEA",
+          "time": "Nov 2008 - Aug 2015",
+          "info": ""
+        }
+      },
+      "education": {
+        "1": {
+          "title": "B.Sc. in Computer Science | <span>Lund University, Sweden</span>",
+          "time": "Aug 2016 - <span class=\"current\">Present</span>",
+          "info": ""
+        },
+        "2": {
+          "title": "B.Sc. in Biomedical Science | <span>Malmö University, Sweden</span>",
+          "time": "Aug 2010 - Jun 2013",
+          "info": ""
+        }
+      },
+      "subheading": "Soy <strong>desarrollador de software</strong> de Helsingburgo, Suecia. Mi objetivo es hacer una diferencia a través de mi solución creativa.",
+      "name": "<span>Nombre : </span> Javier Poremski",
+      "date": "<span>Fecha de nacimiento : </span> November 5, 1986",
+      "location": "<span>Ubicación : </span> Helsingburgo, Escania, Suecia",
+      "email": "<span>Correo electrónico : </span> javier@poremski.se",
+      "phone": "<span>Teléfono : </span> +46 762 20 86 05",
+      "years_experience": "1 año de experiencia | {year} años de experiencia"
+    },
+    "blog": {
+      "title": "Mi blog",
+      "posted_by": "Publicado por {name}",
+      "read_more": "Leer más",
+      "previous": "Anterior",
+      "next": "Siguiente"
+    },
+    "contact": {
+      "title": "Estar en contacto",
+      "form": {
+        "name": {
+          "title": "* Nombre",
+          "msg": "Por favor, escriba su nombre"
+        },
+        "email": {
+          "title": "* Your Email",
+          "msg": "Por favor, escriba su correo electrónico"
+        },
+        "message": {
+          "title": "* Mensaje",
+          "msg": "Por favor, escriba su mensaje"
+        }
+      },
+      "send": "Enviar mensaje",
+      "location": "Ubicación",
+      "call": "Llámeme",
+      "enquiries": "Encuesta"
+    },
+    "portfolio": {
+      "title": "Portafolio",
+      "filter": "Filtros :",
+      "filters": {
+        "all": "Todo",
+        "apps": "Aplicaciones",
+        "web": "Sitios Web",
+        "tools": "Herramientas"
+      },
+      "details": "Ver detalles."
+    }
+  }
+}
