@@ -1,0 +1,109 @@
+{
+  "close": "Close",
+  "current": "current",
+  "menu": {
+    "status": "I am available for freelance",
+    "items": {
+      "resume": "Résumé",
+      "portfolio": "Portfolio",
+      "blog": "Blog",
+      "contact": "Contact"
+    }
+  },
+  "section": {
+    "home": {
+      "hello": "<span>Hi, I'm</span>James Bond",
+      "title": "Software Developer",
+      "download": "Download Résumé"
+    },
+    "about": {
+      "title": {
+        "profile": "Profile",
+        "skills": "Skills",
+        "experience": "Experience",
+        "education": "Education",
+        "services": "Services",
+        "awards": "Awards",
+        "testimonials": "Testimonials"
+      },
+      "dev_lang": {
+        "html_css": "HTML & CSS",
+        "js": "JavaScript",
+        "android": "Android Development",
+        "python": "Python",
+        "swift": "Swift",
+        "java": "Java"
+      },
+      "experience": {
+        "1": {
+          "title": "<span>Customer Service Co-Worker</span> @ IKEA Group",
+          "time": "Oct 2008 - <span class=\"current\">Present</span>",
+          "info": ""
+        },
+        "2": {
+          "title": "<span>Sales & Supply Support Specialist</span> @ IKEA Group",
+          "time": "Nov 2008 - Aug 2015",
+          "info": ""
+        }
+      },
+      "education": {
+        "1": {
+          "title": "B.Sc. in Computer Science | <span>Lund University, Sweden</span>",
+          "time": "Aug 2016 - <span class=\"current\">Present</span>",
+          "info": ""
+        },
+        "2": {
+          "title": "B.Sc. in Biomedical Science | <span>Malmö University, Sweden</span>",
+          "time": "Aug 2010 - Jun 2013",
+          "info": ""
+        }
+      },
+      "subheading": "I'm a <strong>Software Developer</strong> from Helsingborg, Sweden. I aim to make a difference through my creative solution.",
+      "name": "<span>Name : </span> Javier Poremski",
+      "date": "<span>Date of birth : </span> November 5, 1986",
+      "location": "<span>Location : </span> Helsingborg, Scania, Sweden",
+      "email": "<span>Email : </span> javier@poremski.se",
+      "phone": "<span>Phone : </span> +46 762 20 86 05",
+      "years_experience": "1 year of experience | {year} years of experience"
+    },
+    "blog": {
+      "title": "My Blog",
+      "posted_by": "Posted by {name}",
+      "read_more": "Read more",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "contact": {
+      "title": "Get in touch",
+      "form": {
+        "name": {
+          "title": "* Your Name",
+          "msg": "Please enter your name"
+        },
+        "email": {
+          "title": "* Your Email",
+          "msg": "Please enter your email"
+        },
+        "message": {
+          "title": "* Your Message",
+          "msg": "Please enter your message subject"
+        }
+      },
+      "send": "Send Message",
+      "location": "Location",
+      "call": "Call Me",
+      "enquiries": "Enquiries"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "filter": "Filters :",
+      "filters": {
+        "all": "All",
+        "apps": "Apps",
+        "web": "Web",
+        "tools": "Tools"
+      },
+      "details": "View details."
+    }
+  }
+}
