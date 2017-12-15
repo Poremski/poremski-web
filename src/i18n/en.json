@@ -38,24 +38,20 @@
         "1": {
           "title": "<span>Customer Service Co-Worker</span> @ IKEA Group",
           "time": "Oct 2008 - <span class=\"current\">Present</span>",
-          "info": ""
         },
         "2": {
           "title": "<span>Sales & Supply Support Specialist</span> @ IKEA Group",
-          "time": "Nov 2008 - Aug 2015",
-          "info": ""
+          "time": "Nov 2008 - Aug 2015"
         }
       },
       "education": {
         "1": {
           "title": "B.Sc. in Computer Science | <span>Lund University, Sweden</span>",
-          "time": "Aug 2016 - <span class=\"current\">Present</span>",
-          "info": ""
+          "time": "Aug 2016 - <span class=\"current\">Present</span>"
         },
         "2": {
           "title": "B.Sc. in Biomedical Science | <span>Malmö University, Sweden</span>",
-          "time": "Aug 2010 - Jun 2013",
-          "info": ""
+          "time": "Aug 2010 - Jun 2013"
         }
       },
       "subheading": "I'm a <strong>Software Developer</strong> from Helsingborg, Sweden. I aim to make a difference through my creative solution.",

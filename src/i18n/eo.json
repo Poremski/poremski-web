@@ -37,25 +37,21 @@
       "experience": {
         "1": {
           "title": "<span>Kunlaboranto de klienta servo</span> @ Grupo de IKEA",
-          "time": "Okt 2008 - <span class=\"current\">ĉeestanta</span>",
-          "info": ""
+          "time": "Okt 2008 - <span class=\"current\">ĉeestanta</span>"
         },
         "2": {
           "title": "<span>Specialisto de venda kaj loĝistika subtenado</span> @ Grupo de IKEA",
-          "time": "Nov 2008 - Aug 2015",
-          "info": ""
+          "time": "Nov 2008 - Aug 2015"
         }
       },
       "education": {
         "1": {
           "title": "Bakalaŭro en komputiko | <span>Universitato de Lundo, Svedujo</span>",
-          "time": "Aug 2016 - <span class=\"current\">Present</span>",
-          "info": ""
+          "time": "Aug 2016 - <span class=\"current\">Present</span>"
         },
         "2": {
           "title": "Bakalaŭro en biomedika scienco | <span>Altlernejo de Malmogio, Svedujo</span>",
-          "time": "Aug 2010 - Jun 2013",
-          "info": ""
+          "time": "Aug 2010 - Jun 2013"
         }
       },
       "subheading": "Mi estas <strong>programisto</strong> de Helsingborgo, Svedujo. Mi celas diferenci per mia krea solvo.",
