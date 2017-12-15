@@ -9,7 +9,7 @@
     "api": "node backend/run.js",
     "front": "npm run dev",
     "back": "npm run api",
-    "start": "npm run front & npm run back",
+    "start": "npm run front",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
