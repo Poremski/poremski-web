@@ -24,9 +24,7 @@
   export default {
     name: 'app',
     data () {
-      return {
-        email: atob('amF2aWVyQHBvcmVtc2tpLnNl')
-      }
+      return {}
     },
     methods: {
     }

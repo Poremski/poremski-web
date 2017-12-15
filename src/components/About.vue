@@ -200,3 +200,9 @@
     </section>
   </div>
 </template>
+
+<script>
+  export default {
+    props: ['email']
+  }
+</script>
