@@ -50,7 +50,7 @@
               </div>
               <div class="contact-details">
                 <h5>{{ $t('section.contact.enquiries') }}</h5>
-                <p>javier@poremski.se</p>
+                <p><script type="text/javascript">document.write(atob("amF2aWVyQHBvcmVtc2tpLnNl"));</script></p>
               </div>
             </div>
           </div>
