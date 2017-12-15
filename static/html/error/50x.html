@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Poremski.se</title>
+  <style>
+    html {
+      background: #1da1f2;
+    }
+    body {
+      margin: 0;
+      padding: 60px 20px;
+      font: 14px / 18px sans-serif;
+      color: #fff;
+      background-color: transparent;
+    }
+    ol, ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    a {
+      color: #0084b4;
+      text-decoration: none;
+      outline: 0;
+    }
+    a:hover, a:focus {
+      text-decoration: underline;
+    }
+    p a {
+      line-height:inherit;
+    }
+    .errorpage-body-content {
+      max-width: 865px;
+      margin: 0 auto;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    }
+    h1, p {
+      position: relative;
+      z-index: 10;
+      text-align: center;
+      text-rendering: optimizeLegibility;
+    }
+    h1 {
+      margin: 30px 0 0;
+      font-size: 40px;
+      font-weight: 200;
+      line-height: 1;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    }
+    p, label {
+      margin: 10px 0 20px;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 25px;
+      color: #e0eff6;
+    }
+    p a {
+      font-weight: bold;
+      color: #fff;
+    }
+    .errorpage-footer {
+      margin: 0 10%;
+      text-align: center;
+      font-size: 11px;
+    }
+    .errorpage-footer ul {
+      margin-bottom: 5px
+    }
+    .errorpage-footer li {
+      display: inline;
+      margin: 0 5px;
+      line-height: 20px;
+    }
+    .errorpage-footer li, .errorpage-footer a {
+      color: #e4f0f5;
+    }
+    .errorpage-footer a:hover {
+      color: #fff;
+    }
+    @media screen and(max-width: 480px) {
+      h1 {
+        font-size: 30px;
+      }
+    }
+    @media screen and (min-width: 640px) {
+      body {
+        padding: 60px;
+      }
+    }
+    .errorpage-languages li {
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <article class="errorpage-body-content">
+    <h1>I’ll be back soon!</h1>
+    <div>
+      <p>Sorry for the inconvenience but I’m performing some maintenance at the moment. If you need to you can always <a href="mailto:javier@poremski.se">contact me</a>, otherwise I’ll be back online shortly!</p>
+      <p>— Javier Poremski</p>
+      <div class="errorpage-footer">
+        <ul class="errorpage-languages">
+          <li><a data-language="en" data-dir="ltr" href="#">English</a></li>
+          <li><a data-language="de" data-dir="ltr" href="#">Deutsch</a></li>
+          <li><a data-language="fr" data-dir="ltr" href="#">Français</a></li>
+          <li><a data-language="es" data-dir="ltr" href="#">Español</a></li>
+          <li><a data-language="sv" data-dir="ltr" href="#">Svenska</a></li>
+          <li><a data-language="pl" data-dir="ltr" href="#">Polski</a></li>
+          <li><a data-language="eo" data-dir="ltr" href="#">Esperanto</a></li>
+        </ul>
+      </div>
+    </div>
+  </article>
+  <script>
+    let i18n = {}
+    i18n.trans = {
+      en: {
+        title: 'I’ll be back soon!',
+        message: 'Sorry for the inconvenience but I’m performing some maintenance at the moment. If you need to you can always <a href="mailto:javier@poremski.se">contact me</a>, otherwise I’ll be back online shortly!',
+        signature: '— Javier Poremski'
+      },
+      es: {
+        title: '¡Regreso pronto!',
+        message: 'Lo siento por los incovenientes pero estoy realizando tareas de mantenimiento en estos momentos. Si lo necesita, siempre puede <a href="mailto:javier@poremski.se">contactarme</a>, de lo contrario estaré en linea pronto.',
+        signature: '— Javier Poremski'
+      },
+      de: {
+        title: 'Ich werde bald zurück sein!',
+        message: 'Entschuldigung für die Unannehmlichkeiten, aber ich führe momentan einige Wartungsarbeiten durch. Bei Bedarf können Sie mich jederzeit <a href="mailto:javier@poremski.se">kontaktieren</a>, sonst bin ich in Kürze wieder online!',
+        signature: '— Javier Poremski'
+      },
+      fr: {
+        title: 'Je reviendrai bientôt !',
+        message: 'Désolé pour le dérangement mais j’effectue une maintenance pour le moment. Si vous avez besoin de moi pouvez toujours <a href="mailto:javier@poremski.se">me contacter</a>, sinon je serai de retour en ligne sous peu!',
+        signature: '— Javier Poremski'
+      },
+      sv: {
+        title: 'Jag kommer snart tillbaka!',
+        message: 'Urstäkta olägenheten, men jag utför lite serverunderhåll just nu. Om du behöver kan du alltid <a href="mailto:javier@poremski.se">kontakta mig</a>, annars kommer jag snart tillbaka på nätet.',
+        signature: '— Javier Poremski'
+      },
+      pl: {
+        title: 'Wkrótce wrócę!',
+        message: 'Przepraszam za niedogodności, ale w tej chwili wykonuję pewne czynności konserwacyjne. Jeśli potrzebujesz, zawsze możesz <a href="mailto:javier@poremski.se">skontaktować się ze mną</a>, w przeciwnym razie wkrótce wrócę do trybu online.',
+        signature: '— Javier Poremski'
+      },
+      eo: {
+        title: 'Mi revenos baldaŭ!',
+        message: 'Mi pardonpetas pri la ĝeno, sed mi nuntempe okazigas iom da subtenado. Se vi bezonas, vi ĉiam povas <a href="mailto:javier@poremski.se">kontakti min</a>, alie mi reiros enrete baldaŭ.',
+        signature: '— Javier (Ĥaĉjo) Poremski'
+      }
+    }
+    function displayLanguage (b, a) {
+      if (b && i18n.trans[b]) {
+        document.getElementsByTagName('h1')[0].innerHTML = i18n.trans[b].title
+        document.getElementsByTagName('p')[0].innerHTML = i18n.trans[b].message
+        document.body.dir = a
+        document.documentElement.lang = b
+        document.getElementsByTagName('p')[1].innerHTML = i18n.trans[b].signature
+      }
+    }
+    window.onload = function () {
+      let d = window.navigator.language ? window.navigator.language.replace(/^(..).*$/, '$1') : undefined
+      let a = document.cookie.match(/lang=([a-z-]+)/)
+      if (a && a.length > 0) {
+        d = a[1]
+      }
+      let c = document.getElementsByTagName('ul')[0].getElementsByTagName('a')
+      for (let b = 0; b < c.length; b++) {
+        c[b].onclick = function (f) {
+          displayLanguage(f.target.getAttribute('data-language'), f.target.getAttribute('data-dir'))
+          return false
+        }
+        if (c[b].getAttribute('data-language') === d) {
+          displayLanguage(d, c[b].getAttribute('data-dir'))
+        }
+      }
+    }
+  </script>
+</body>
+</html>
