@@ -54,7 +54,7 @@
       </div>
       <div class="row text-center">
         <div class="col-md-12 btn-email">
-          <a class="btn lowercase"><script type="text/javascript">document.write(atob("amF2aWVyQHBvcmVtc2tpLnNl"));</script></a>
+          <a class="btn lowercase">{{ email }}</a>
         </div>
       </div>
     </section>
