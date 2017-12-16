@@ -73,7 +73,7 @@
     },
     methods: {
       setLang (lang) {
-        axios.get('http://localhost:8080/static/i18n/' + lang + '.json').then((res) => {
+        axios.get('/static/i18n/' + lang + '.json').then((res) => {
           this.$i18n.add(lang, res.data)
           this.$i18n.set(lang)
           document.documentElement.lang = lang
