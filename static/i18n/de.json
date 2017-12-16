@@ -15,6 +15,91 @@
       "hello": "<span>Hello, ich bin</span>Javier Poremski",
       "title": "Softwareentwickler",
       "download": "Lebenslauf herunterladen"
+    },
+    "about": {
+      "title": {
+        "profile": "Profil",
+        "skills": "Fertigkeiten",
+        "experience": "Erfahrung",
+        "education": "Ausbildung",
+        "services": "Dienste",
+        "awards": "Auszeichnungen",
+        "testimonials": "Beglaubigungsschreiben"
+      },
+      "dev_lang": {
+        "html_css": "HTML & CSS",
+        "js": "JavaScript",
+        "android": "Android-Entwicklung",
+        "python": "Python",
+        "swift": "Swift",
+        "java": "Java"
+      },
+      "experience": {
+        "1": {
+          "title": "<span>Mitarbeiterin der Kundenbeziehung</span> @ IKEA-Konzern",
+          "time": "Okt 2008 - <span class=\"current\">gegenwärtig</span>"
+        },
+        "2": {
+          "title": "<span>Fachmann der Verkaufs- und Lieferungsunterstützung</span> @ IKEA-Konzern",
+          "time": "Nov 2008 - Aug 2015"
+        }
+      },
+      "education": {
+        "1": {
+          "title": "B.Sc. Ingenieurinformatik | <span>Universität Lund</span>",
+          "time": "Aug 2016 - <span class=\"current\">gegenwärtig</span>"
+        },
+        "2": {
+          "title": "B.Sc. Biomedizin | <span>Hochschule Malmö</span>",
+          "time": "Aug 2010 - Jun 2013"
+        }
+      },
+      "subheading": "Ich bin <strong>Softwareentwickler</strong> aus Helsingborg in Schweden. Jag strävar efter att göra en skillnad genom min kreativa lösning.",
+      "name": "<span>Namn: </span> Javier Poremski",
+      "date": "<span>Födelsedag : </span> November 5, 1986",
+      "location": "<span>Plats : </span> Helsingborg, Skåne, Sverige",
+      "email": "<span>E-mail : </span> javier@poremski.se",
+      "phone": "<span>Telefon : </span> +46 762 20 86 05",
+      "years_experience": "{year} års erfarenhet | {year} års erfarenhet"
+    },
+    "blog": {
+      "title": "Mein Blog",
+      "posted_by": "Geschrieben von {name}",
+      "read_more": "Weiterlesen",
+      "previous": "Zurück",
+      "next": "Weiter"
+    },
+    "contact": {
+      "title": "In Kontakt kommen",
+      "form": {
+        "name": {
+          "title": "* Sein Name",
+          "msg": "Bitte geben Sie Ihren Namen"
+        },
+        "email": {
+          "title": "* Seine E-Mail",
+          "msg": "Geben Sie bitte Ihre E-Mail-Adresse"
+        },
+        "message": {
+          "title": "* Seine Nachricht",
+          "msg": "Geben Sie bitte Seine Nachricht"
+        }
+      },
+      "send": "Nachricht senden",
+      "location": "Ort",
+      "call": "Rufen Sie mich",
+      "enquiries": "Anfragen"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "filter": "Filter :",
+      "filters": {
+        "all": "Alle",
+        "apps": "Apps",
+        "web": "Web",
+        "tools": "Werkzeuge"
+      },
+      "details": "Details anzeigen."
     }
   }
 }
