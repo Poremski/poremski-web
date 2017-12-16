@@ -54,13 +54,13 @@
           "time": "Aug 2010 - Jun 2013"
         }
       },
-      "subheading": "Ich bin <strong>Softwareentwickler</strong> aus Helsingborg in Schweden. Jag strävar efter att göra en skillnad genom min kreativa lösning.",
-      "name": "<span>Namn: </span> Javier Poremski",
-      "date": "<span>Födelsedag : </span> November 5, 1986",
-      "location": "<span>Plats : </span> Helsingborg, Skåne, Sverige",
-      "email": "<span>E-mail : </span> javier@poremski.se",
+      "subheading": "Ich bin <strong>Softwareentwickler</strong> aus Helsingborg in Schweden. Mein Ziel ist, einen Unterschied durch meine kreative Lösung zu machen.",
+      "name": "<span>Name : </span> Javier Poremski",
+      "date": "<span>Geburtsdatum : </span> November 5, 1986",
+      "location": "<span>Ort : </span> Helsingborg, Scania, Sweden",
+      "email": "<span>E-Mail : </span> javier@poremski.se",
       "phone": "<span>Telefon : </span> +46 762 20 86 05",
-      "years_experience": "{year} års erfarenhet | {year} års erfarenhet"
+      "years_experience": "1 Jahr der Erfahrung | {year} Jahre der Erfahrung"
     },
     "blog": {
       "title": "Mein Blog",
