@@ -2784,58 +2784,48 @@ h4.package {
                          Language selector
 
 -------------------------------------------------------------------*/
+
 .languagepicker {
-  background-color: #FFF;
-  display: inline-block;
-  padding: 0;
-  height: 40px;
-  overflow: hidden;
-  transition: all .3s ease;
-  margin: 20px 50px 10px 0;
-  vertical-align: top;
-  float: left;
-}
-
-.languagepicker:hover {
-  /* don't forget the 1px border */
-  height: 81px;
-}
-
-.languagepicker a{
-  color: #000;
-  text-decoration: none;
+  position: absolute;
+  bottom: 15%;
 }
 
 .languagepicker li {
-  display: block;
-  padding: 0px 20px;
-  line-height: 40px;
-  border-top: 1px solid #EEE;
+  display: inline-block;
+  margin-right: 2px;
+  text-align: center;
 }
 
-.languagepicker li:hover{
-  background-color: #EEE;
+.languagepicker a {
+  display: inline-block;
+  height: 24px;
+  width: 35px;
+  transition: all 0.5s;
 }
 
-.languagepicker a:first-child li {
-  border: none;
-  background: #FFF !important;
+.languagepicker a:hover {
+  height: 47px;
+  width: 70px;
 }
 
 .languagepicker li img {
-  margin-right: 5px;
-  height: 20px;
+  line-height: 35px;
+  margin-bottom: 35px;
+  height: 100%;
+  width: 100%;
 }
 
-.roundborders {
-  border-radius: 5px;
+@media (max-width:800px) and (orientation:landscape) {
+  .languagepicker {
+    position: relative;
+    margin: 50px 0;
+  }
 }
 
-.large:hover {
-  /*
-    don't forget the 1px border!
-    The first language is 40px heigh,
-    the others are 41px
-    */
-  height: 286px;
+@media (max-width:800px) {
+  .languagepicker {
+    bottom: 0;
+    position: relative;
+    margin: 50px 0;
+  }
 }
