@@ -60,7 +60,7 @@
       "location": "<span>Location : </span> Helsingborg, Scania, Sweden",
       "email": "<span>Email : </span> javier@poremski.se",
       "phone": "<span>Phone : </span> +46 762 20 86 05",
-      "years_experience": "1 year of experience | {year} years of experience"
+      "years_experience": "{year} year of experience ::: {year} years of experience"
     },
     "blog": {
       "title": "My Blog",

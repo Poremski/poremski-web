@@ -60,7 +60,7 @@
       "location": "<span>Loko : </span> Helsingborgo, Skanio, Svedujo",
       "email": "<span>Retpoŝto : </span> javier@poremski.se",
       "phone": "<span>Telefono : </span> +46 762 20 86 05",
-      "years_experience": "1 jaro da sperto | {year} jaroj da sperto"
+      "years_experience": "{year} jaro da sperto ::: {year} jaroj da sperto"
     },
     "blog": {
       "title": "Mia blogo",

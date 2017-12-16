@@ -55,7 +55,6 @@
         "2": {
           "title": "Kand. i biomedicin | <span>Malmö Högskola</span>",
           "time": "Aug 2010 - Jun 2013",
-          "info": ""
         }
       },
       "subheading": "Jag är <strong>systemutvecklare</strong> från Helsingborg. Jag strävar efter att göra en skillnad genom min kreativa lösning.",
@@ -64,7 +63,7 @@
       "location": "<span>Plats : </span> Helsingborg, Skåne, Sverige",
       "email": "<span>E-mail : </span> javier@poremski.se",
       "phone": "<span>Telefon : </span> +46 762 20 86 05",
-      "years_experience": "{year} års erfarenhet | {year} års erfarenhet"
+      "years_experience": "{year} års erfarenhet ::: {year} års erfarenhet"
     },
     "blog": {
       "title": "Min blogg",
