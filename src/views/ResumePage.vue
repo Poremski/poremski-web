@@ -71,6 +71,9 @@
       BlogComponent,
       ContactComponent
     },
+    created: function () {
+      this.setLang('sv')
+    },
     methods: {
       setLang (lang) {
         axios.get('/static/i18n/' + lang + '.json').then((res) => {
