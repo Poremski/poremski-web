@@ -11,9 +11,6 @@ export default new Router({
       path: '/',
       name: 'ResumePage',
       component: ResumePage
-    },
-    {
-      path: '/:lang'
     }
   ]
 })

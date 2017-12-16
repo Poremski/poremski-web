@@ -16,37 +16,37 @@
       </div>
       <div class="block-content">
         <h3 class="block-title">{{ $t('section.about.title.skills') }}</h3>
-        <label class="progress-bar-label">{{ $t('section.about.dev_lang.html_css') }} - <span>{{ $tc('section.about.years_experience', 10, {year: 10}) }}</span></label>
+        <label class="progress-bar-label">{{ $t('section.about.dev_lang.html_css') }} - <span>{{ $t('section.about.years_experience', {year: 10}) }}</span></label>
         <div class="progress">
           <div style="width: 99%;" class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">
             <span>99%</span>
           </div>
         </div>
-        <label class="progress-bar-label">{{ $t('section.about.dev_lang.js') }} - <span>{{ $tc('section.about.years_experience', 5, {year: 5}) }}</span></label>
+        <label class="progress-bar-label">{{ $t('section.about.dev_lang.js') }} - <span>{{ $t('section.about.years_experience', {year: 5}) }}</span></label>
         <div class="progress">
           <div style="width: 80%;" class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
             <span>99%</span>
           </div>
         </div>
-        <label class="progress-bar-label">{{ $t('section.about.dev_lang.java') }} - <span>{{ $tc('section.about.years_experience', 5, {year: 5}) }}</span></label>
+        <label class="progress-bar-label">{{ $t('section.about.dev_lang.java') }} - <span>{{ $t('section.about.years_experience', {year: 5}) }}</span></label>
         <div class="progress">
           <div style="width: 85%;" class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
             <span>99%</span>
           </div>
         </div>
-        <label class="progress-bar-label">{{ $t('section.about.dev_lang.android') }} - <span>{{ $tc('section.about.years_experience', 5, {year: 5}) }}</span></label>
+        <label class="progress-bar-label">{{ $t('section.about.dev_lang.android') }} - <span>{{ $t('section.about.years_experience', {year: 5}) }}</span></label>
         <div class="progress">
           <div style="width: 45%;" class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
             <span>99%</span>
           </div>
         </div>
-        <label class="progress-bar-label">{{ $t('section.about.dev_lang.python') }} - <span>{{ $tc('section.about.years_experience', 5, {year: 5}) }}</span></label>
+        <label class="progress-bar-label">{{ $t('section.about.dev_lang.python') }} - <span>{{ $t('section.about.years_experience', {year: 5}) }}</span></label>
         <div class="progress">
           <div style="width: 90%;" class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
             <span>99%</span>
           </div>
         </div>
-        <label class="progress-bar-label">{{ $t('section.about.dev_lang.swift') }} - <span>{{ $tc('section.about.years_experience', 2, {year: 2}) }}</span></label>
+        <label class="progress-bar-label">{{ $t('section.about.dev_lang.swift') }} - <span>{{ $t('section.about.years_experience', {year: 2}) }}</span></label>
         <div class="progress">
           <div style="width: 40%;" class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
             <span>99%</span>
@@ -103,7 +103,7 @@
           </div>
         </div>
       </div>
-      <div class="block-content">
+      <!-- <div class="block-content">
         <h3 class="block-title">{{ $t('section.about.title.services') }}</h3>
         <div class="row">
           <div class="col-md-4 col-sm-6 service">
@@ -149,7 +149,7 @@
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- <div class="block-content">
         <h3 class="block-title">{{ $t('section.about.title.awards') }}</h3>
         <div class="row">

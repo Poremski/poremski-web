@@ -4,21 +4,16 @@
     <div class="container">
       <div class="name-block">
         <div class="name-block-container">
-          <ul class="languagepicker roundborders large">
-            <a href="#sv"><li><img src="/static/img/flag/sv.png">Svenska</li></a>
-            <a href="#en"><li><img src="/static/img/flag/en.png">English</li></a>
-            <a href="#de"><li><img src="/static/img/flag/de.png">Deutsch</li></a>
-            <a href="#fr"><li><img src="/static/img/flag/fr.png">Français</li></a>
-            <a href="#es"><li><img src="/static/img/flag/es.png">Español</li></a>
-            <a href="#pl"><li><img src="/static/img/flag/pl.png">Polski</li></a>
-            <a href="#eo"><li><img src="/static/img/flag/eo.png">Esperanto</li></a>
-          </ul>
           <h1 v-html="$t('section.home.hello')" style="clear:both"></h1>
           <h2>{{ $t('section.home.title')}}</h2>
           <a target="_blank" href="#" class="btn btn-download">{{ $t('section.home.download') }}</a>
-          <ul class="social">
-            <li><a href="//facebook.com/drewito"><i class="ion-social-facebook"></i></a></li>
-            <li><a href="//github.com/poremski"><i class="ion-social-github"></i></a></li>
+          <ul class="languagepicker">
+            <li><a data-language="sv" data-dir="ltr" v-on:click="setLang('sv')"><img src="/static/img/flag/sv.png" title="Svenksa"></a></li>
+            <li><a data-language="en" data-dir="ltr" v-on:click="setLang('en')"><img src="/static/img/flag/en.png" title="English"></a></li>
+            <li><a data-language="de" data-dir="ltr" v-on:click="setLang('de')"><img src="/static/img/flag/de.png" title="Deutsch"></a></li>
+            <li><a data-language="fr" data-dir="ltr" v-on:click="setLang('fr')"><img src="/static/img/flag/fr.png" title="Français"></a></li>
+            <li><a data-language="es" data-dir="ltr" v-on:click="setLang('es')"><img src="/static/img/flag/es.png" title="Español"></a></li>
+            <li><a data-language="eo" data-dir="ltr" v-on:click="setLang('eo')"><img src="/static/img/flag/eo.png" title="Esperanto"></a></li>
           </ul>
         </div>
       </div>
@@ -44,10 +39,10 @@
           </div>
         </div>
       </div>
-      <about-component></about-component>
-      <portfolio-component></portfolio-component>
+      <about-component :email="email"></about-component>
+      <portfolio-component :email="email"></portfolio-component>
       <blog-component></blog-component>
-      <contact-component></contact-component>
+      <contact-component :email="email"></contact-component>
       <div class="content-blocks pop">
         <div id="close-pop" class="close-pop">{{ $t('close') }} <i class="ion-ios-close-empty"></i></div>
         <section class="content"></section>
@@ -62,12 +57,30 @@
   import BlogComponent from '@/components/Blog'
   import ContactComponent from '@/components/Contact'
 
+  import axios from 'axios'
+
   export default {
+    data () {
+      return {
+        email: atob('amF2aWVyQHBvcmVtc2tpLnNl')
+      }
+    },
     components: {
       AboutComponent,
       PortfolioComponent,
       BlogComponent,
       ContactComponent
+    },
+    methods: {
+      setLang (lang) {
+        axios.get('http://localhost:8080/static/i18n/' + lang + '.json').then((res) => {
+          this.$i18n.add(lang, res.data)
+          this.$i18n.set(lang)
+          document.documentElement.lang = lang
+        }, (err) => {
+          console.log(err)
+        })
+      }
     }
   }
 </script>
