@@ -6,7 +6,6 @@ import vuexI18n from 'vuex-i18n'
 import App from './App'
 import router from './router'
 import axios from 'axios'
-import svI18n from '@/i18n/sv'
 
 Vue.config.productionTip = false
 
@@ -26,7 +25,6 @@ Vue.use(vuexI18n.plugin, store, {
   }
 })
 
-Vue.i18n.add('sv', svI18n)
 Vue.i18n.set('sv')
 Vue.i18n.fallback('sv')
 
