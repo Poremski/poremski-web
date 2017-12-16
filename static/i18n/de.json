@@ -1,3 +1,20 @@
 {
-
+  "close": "Schließen",
+  "current": "gegenwärtig",
+  "menu": {
+    "status": "Ich bin freiberuflich verfügbar",
+    "items": {
+      "resume": "Lebenslauf",
+      "portfolio": "Portfolio",
+      "blog": "Blog",
+      "contact": "Kontakt"
+    }
+  },
+  "section": {
+    "home": {
+      "hello": "<span>Hello, ich bin</span>Javier Poremski",
+      "title": "Softwareentwickler",
+      "download": "Lebenslauf herunterladen"
+    }
+  }
 }
